@@ -55,10 +55,12 @@ const Projects = () => {
                                 alt={i + " slide"}
                             />
                             <Carousel.Caption>
+                                {/*eslint-disable-next-line*/}
                                 <h3 className="project-name"></h3>
                                 <div className="project-caption">
                                     <p className="project-desc">{projectList[key].description}</p>
                                     <p className="tech">{projectList[key].tech}</p>
+                                    {/*eslint-disable-next-line*/}
                                     <a className="project-icon effect-shine" href={projectList[key].github}
                                        target="_blank">
                                         <GitHubIcon style={{fontSize: 25}}></GitHubIcon>

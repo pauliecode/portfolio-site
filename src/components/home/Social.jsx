@@ -1,5 +1,4 @@
 import React from 'react';
-import { LiaXing } from 'react-icons/lia';
 
 const Social = () => {
   return (
