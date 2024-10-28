@@ -6,8 +6,6 @@ import "swiper/css";
 import "swiper/css/effect-cards";
 import 'swiper/css/pagination';
 
-// import required modules
-// import { EffectCards, Pagination } from "swiper";
 
 // image imports
 import img1 from "../../assets/selfie1.jpg"
@@ -32,19 +30,19 @@ const GalleryCards = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <img className="card-img" src={img1} />
+                    <img className="card-img" src={img1} alt="Selfie with my boyfriend on the harbour!" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className="card-img" src={img2} />
+                    <img className="card-img" src={img2} alt="Me in my natural habitat, on the couch playing videogames" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className="card-img" src={img3} />
+                    <img className="card-img" src={img3} alt="My cat, Milly. A brown standard european domestic cat" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className="card-img" src={img4} />
+                    <img className="card-img" src={img4} alt="My other cat Lily. A siameses white cat" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className="card-img" src={img5} />
+                    <img className="card-img" src={img5} alt="The views of the nature of my hometown in Spain, Jaca" />
                 </SwiperSlide>
             </Swiper>
         </div>
