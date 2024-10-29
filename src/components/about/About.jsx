@@ -14,7 +14,7 @@ const About = () => {
             <div className="about__data">
 
                 <p className="about__description">
-                    Hallo, mein Name ist Paula, ich bin in Spanien geboren, lebe aber seit 2019 in Flensburg, Deutschland. Im Sommer habe ich meine Ausbildung zur Fachinformatikerin für Anwendungsentwicklung
+                    Moin! Mein Name ist Paula, ich bin in Spanien geboren, lebe aber seit 2019 in Flensburg, Deutschland. Im Sommer habe ich meine Ausbildung zur Fachinformatikerin für Anwendungsentwicklung
                     bei der lambda9 GmbH abgeschlossen und arbeite seitdem bei Bartels-Langness (BELA) in Kiel als Softwareentwicklerin. Mein Ziel ist es, barrierefreie, kundenorientierte und innovative Anwendungen zu entwickeln, wobei
                     ich besonderen Wert auf Sicherheit und Skalierbarkeit lege. Ich bin immer daran interessiert, mein Wissen zu erweitern und an neuen, interessanten Projekten zu arbeiten!
                     <br />
