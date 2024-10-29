@@ -42,7 +42,7 @@
     position: absolute;
     width: 50px;
     height: 1px;
-    background-color: var(--text-color);
+    background-color: var(--title-color);
     left: 0;
     top: 1rem;
 }
@@ -161,7 +161,7 @@
     .home__scroll{
         display: none;
     }
-    .home__subtitle{
+    .home__subtitle::before {
         display: none;
     }
   }

@@ -12,7 +12,7 @@ const Qualification = () => {
     return (
         <section className="qualification section">
             <h2 className="section__title">Qualifikationen</h2>
-            <span className="section__subtitle">My journey</span>
+            <span className="section__subtitle">Mein Werdegang</span>
 
             <div className="qualification__container container">
                 <div className="qualification__tabs">
