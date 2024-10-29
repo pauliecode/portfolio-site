@@ -1,7 +1,8 @@
-import simhelper from '../../assets/simhelper.png'
-import exhibit from '../../assets/exhibit.png'
-import expenses from '../../assets/expenses.png'
-import portfoliov1 from '../../assets/portfolio-v1.png'
+import simhelper from '../../assets/simhelper.gif'
+import exhibit from '../../assets/exhibit.gif'
+import expenses from '../../assets/expenses.gif'
+import portfoliov1 from '../../assets/portfolio-v1.gif'
+import featherschat from '../../assets/featherschat.gif'
 
 export const projectsData = [
     {
@@ -31,5 +32,12 @@ export const projectsData = [
         title: "Expenses Tracker",
         link: "https://vue-expenses-tracker-paulie.netlify.app/",
         link2: "https://github.com/pauliecode/vue-expense-tracker",
+    },
+    {
+        id: 5,
+        image: featherschat,
+        title: "Chat Web-Application",
+        link: "",
+        link2: "https://github.com/pauliecode/paulies-chat",
     }
 ]

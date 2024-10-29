@@ -23,9 +23,9 @@ const About = () => {
                     Wenn ich nicht zu Hause bin, bin ich wahrscheinlich im örtlichen Geek-Shop und kaufe Karten, Comics oder andere Dinge, für die ich nicht so viel Geld ausgeben sollte.
                 </p>
 
-                <a download="" href={CV} className="button button--flex">Download CV
+                <a download="" href={CV} className="button button--flex">CV Herunterladen
                 <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
