@@ -2,11 +2,13 @@ import React from 'react';
 import "./about.css";
 import CV from "../../assets/CV.pdf";
 import Gallery from "./Gallery";
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+    const { t } = useTranslation();
   return (
     <section className="about section" id="about">
-        <h2 className="section__title">Über mich</h2>
+        <h2 className="section__title">{t('Über mich')}</h2>
 
         <div className="about__container container grid">
             <Gallery />
@@ -14,16 +16,16 @@ const About = () => {
             <div className="about__data">
 
                 <p className="about__description">
-                    Moin! Mein Name ist Paula, ich bin in Spanien geboren, lebe aber seit 2019 in Flensburg, Deutschland. Im Sommer habe ich meine Ausbildung zur Fachinformatikerin für Anwendungsentwicklung
-                    bei der lambda9 GmbH abgeschlossen und arbeite seitdem bei Bartels-Langness (BELA) in Kiel als Softwareentwicklerin. Mein Ziel ist es, barrierefreie, kundenorientierte und innovative Anwendungen zu entwickeln, wobei
-                    ich besonderen Wert auf Sicherheit und Skalierbarkeit lege. Ich bin immer daran interessiert, mein Wissen zu erweitern und an neuen, interessanten Projekten zu arbeiten!
+                    {t('Moin! Mein Name ist Paula, ich bin in Spanien geboren, lebe aber seit 2019 in Flensburg, Deutschland. Im Sommer habe ich meine Ausbildung zur Fachinformatikerin für Anwendungsentwicklung')}
+                    {t('bei der lambda9 GmbH abgeschlossen und arbeite seitdem bei Bartels-Langness (BELA) in Kiel als Softwareentwicklerin. Mein Ziel ist es, barrierefreie, kundenorientierte und innovative Anwendungen zu entwickeln, wobei')}
+                    {t('ich besonderen Wert auf Sicherheit und Skalierbarkeit lege. Ich bin immer daran interessiert, mein Wissen zu erweitern und an neuen, interessanten Projekten zu arbeiten!')}
                     <br />
                     <br />
-                    Außerdem bin ich ein großer Filmfan, liebe die Luftfahrt, meine Katze und das Musical Hamilton. Wenn du das hier liest, bin ich wahrscheinlich am Videospiele spielen, höre Musik, schaue Filme oder schlafe.
-                    Wenn ich nicht zu Hause bin, bin ich wahrscheinlich im örtlichen Geek-Shop und kaufe Karten, Comics oder andere Dinge, für die ich nicht so viel Geld ausgeben sollte.
+                    {t('Außerdem bin ich ein großer Filmfan, liebe die Luftfahrt, meine Katze und das Musical Hamilton. Wenn du das hier liest, bin ich wahrscheinlich am Videospiele spielen, höre Musik, schaue Filme oder schlafe.')}
+                    {t('Wenn ich nicht zu Hause bin, bin ich wahrscheinlich im örtlichen Geek-Shop und kaufe Karten, Comics oder andere Dinge, für die ich nicht so viel Geld ausgeben sollte.')}
                 </p>
 
-                <a download="" href={CV} className="button button--flex">CV Herunterladen
+                <a download="" href={CV} className="button button--flex">{t('CV Herunterladen')}
                 <svg
                 className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"

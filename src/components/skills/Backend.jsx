@@ -1,9 +1,11 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 
 const Backend = () => {
+    const { t } = useTranslation();
   return (
     <div className="skills__content">
-        <h3 className="skills__title">Backend Entwicklerin</h3>
+        <h3 className="skills__title">{t('Backend Entwicklerin')}</h3>
 
         <div className="skills__box">
             <div className="skills__group">

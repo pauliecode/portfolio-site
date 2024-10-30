@@ -23,6 +23,7 @@
 
 .nav__list {
     display: flex;
+    margin-top: 20px;
     column-gap: 2rem;
 }
 

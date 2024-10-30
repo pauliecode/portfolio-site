@@ -1,8 +1,10 @@
 import React from 'react';
 import "./qualification.css";
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Qualification = () => {
+    const { t } = useTranslation();
     const [toggleState, setToggleState] = useState(1);
     const toggleTab = (index) => {
         setToggleState(index);
@@ -11,8 +13,8 @@ const Qualification = () => {
 
     return (
         <section className="qualification section">
-            <h2 className="section__title">Qualifikationen</h2>
-            <span className="section__subtitle">Mein Werdegang</span>
+            <h2 className="section__title">{t('Qualifikationen')}</h2>
+            <span className="section__subtitle">{t('Mein Werdegang')}</span>
 
             <div className="qualification__container container">
                 <div className="qualification__tabs">
@@ -20,13 +22,13 @@ const Qualification = () => {
                         : "qualification__button button--flex"}
                         onClick={() => toggleTab(1)}
                     >
-                        <i className="uil uil-graduation-cap qualification__icon"></i>Bildungsweg
+                        <i className="uil uil-graduation-cap qualification__icon"></i>{t('Bildungsweg')}
                     </div>
                     <div className={toggleState === 2 ? "qualification__button qualification__active button--flex"
                         : "qualification__button button--flex"}
                         onClick={() => toggleTab(2)}
                     >
-                        <i className="uil uil-briefcase-alt qualification__icon"></i>Berufserfahrung
+                        <i className="uil uil-briefcase-alt qualification__icon"></i>{t('Berufserfahrung')}
                     </div>
                 </div>
 
@@ -35,7 +37,7 @@ const Qualification = () => {
                         : "qualification__content"}>
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Fachinformatikerin<br/>Softwareentwicklung</h3>
+                                <h3 className="qualification__title">{t('Fachinformatikerin')}<br/>{t('Softwareentwicklung')}</h3>
                                 <span className="qualification__subtitle">Flensburg - Eckener Schule </span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i> 08/2021 - 07/2024
@@ -55,8 +57,8 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">Computerysteme und Netzwerke</h3>
-                                <span className="qualification__subtitle">Huesca, Spanien - IES San Alberto Mango</span>
+                                <h3 className="qualification__title">{t('Computerysteme und Netzwerke')}</h3>
+                                <span className="qualification__subtitle">Huesca, {t('Spanien')} - IES San Alberto Mango</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i> 2018 - 2019 (Interrupted)
                                 </div>
@@ -70,7 +72,7 @@ const Qualification = () => {
                         : "qualification__content"}>
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Softwareentwicklerin</h3>
+                                <h3 className="qualification__title">{t('Softwareentwicklerin')}</h3>
                                 <span className="qualification__subtitle">Kiel - Bartels-Langness </span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i> 09/2024 - 10/2024
@@ -90,7 +92,7 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">Softwareentwicklerin | Ausbildung</h3>
+                                <h3 className="qualification__title">{t('Softwareentwicklerin')} | {t('Ausbildung')}</h3>
                                 <span className="qualification__subtitle">Flensburg - lambda9 GmbH </span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i> 08/2021 - 07/2024

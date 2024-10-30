@@ -137,4 +137,14 @@
     .qualification__button{
         justify-content: center;
     }
+    .qualification__button:active {
+        background-color: var(--title-color);
+    }
+
+}
+
+@media (hover: hover) {
+    .qualification__button:hover {
+        background-color: var(--title-color-dark);
+    }
 }

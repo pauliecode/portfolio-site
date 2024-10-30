@@ -1,20 +1,24 @@
 import React from 'react'
 
+import { useTranslation } from 'react-i18next';
+
 const Data = () => {
+    const { t } = useTranslation();
+
   return (
     <div className="home__data">
       <h1 className="home__title">Paula Gotor
 
       </h1>
-      <h3 className="home__subtitle">Full Stack Entwicklerin</h3>
+      <h3 className="home__subtitle">{t('Full Stack Entwicklerin')}</h3>
       <p className="home__description">
 
       </p>
 
       <a href="#contact" className="button button--flex">
-          Kontakt aufnehmen!
+          {t('Kontakt aufnehmen!')}
         <svg
-          class="button__icon"
+          className="button__icon"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"

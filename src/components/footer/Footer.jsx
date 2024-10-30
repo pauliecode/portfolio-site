@@ -1,8 +1,10 @@
 import React from 'react';
 import "./footer.css";
 import logo from "../../assets/PGlogo.png";
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+    const { t } = useTranslation();
     return (
         <footer className="footer">
 
@@ -13,21 +15,21 @@ const Footer = () => {
                 <div>
                     <ul className="footer__list">
                         <li>
-                            <a href="#about" className="footer__link">Über mich</a>
+                            <a href="#about" className="footer__link">{t('Über mich')}</a>
                         </li>
 
                         <li>
-                            <a href="#portfolio" className="footer__link">Projekte</a>
+                            <a href="#portfolio" className="footer__link">{t('Projekte')}</a>
                         </li>
 
                     </ul>
 
                     <div className="footer__social">
                         <a href="https://www.linkedin.com/in/paula-alemany-gotor-3705641b8/" className="footer__social-link" target="_blank" rel="noopener noreferrer">
-                            <i class="bx bxl-linkedin"></i>
+                            <i className="bx bxl-linkedin"></i>
                         </a>
                         <a href="https://github.com/pauliecode" className="footer__social-link" target="_blank" rel="noopener noreferrer">
-                            <i class="bx bxl-github"></i>
+                            <i className="bx bxl-github"></i>
                         </a>
                     </div>
 

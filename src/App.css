@@ -78,7 +78,7 @@ body,
 button,
 input,
 textarea {
-  font-family: var(--body-font) !important;
+  font-family: var(--body-font), serif !important;
   font-size: var(--normal-font-size) !important;
 }
 
@@ -162,6 +162,13 @@ img {
 
 .button__icon {
   margin-left: var(--mb-0-5);
+}
+
+.flag__icon {
+  max-width: 100px;
+  max-height: 25px;
+  background-color: #FAFAFA;
+  margin: -1px -1px -1px -1px;
 }
 
 .button--flex {
