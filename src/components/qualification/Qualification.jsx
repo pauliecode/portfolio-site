@@ -58,7 +58,7 @@ const Qualification = () => {
 
                             <div>
                                 <h3 className="qualification__title">{t('Computerysteme und Netzwerke')}</h3>
-                                <span className="qualification__subtitle">Huesca, {t('Spanien')} - IES San Alberto Mango</span>
+                                <span className="qualification__subtitle">Huesca, {t('Spanien')} - IES San Alberto Magno</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i> 2018 - 2019 (Interrupted)
                                 </div>
