@@ -17,12 +17,12 @@ const About = () => {
 
                 <p className="about__description">
                     {t('Moin! Mein Name ist Paula, ich bin in Spanien geboren, lebe aber seit 2019 in Flensburg, Deutschland. Im Sommer habe ich meine Ausbildung zur Fachinformatikerin für Anwendungsentwicklung')}
-                    {t('bei der lambda9 GmbH abgeschlossen und arbeite seitdem bei Bartels-Langness (BELA) in Kiel als Softwareentwicklerin. Mein Ziel ist es, barrierefreie, kundenorientierte und innovative Anwendungen zu entwickeln, wobei')}
-                    {t('ich besonderen Wert auf Sicherheit und Skalierbarkeit lege. Ich bin immer daran interessiert, mein Wissen zu erweitern und an neuen, interessanten Projekten zu arbeiten!')}
+                    {t(' bei der lambda9 GmbH abgeschlossen und arbeite gerade bei CODIN IT in Flensburg als Softwareentwicklerin. Mein Ziel ist es, barrierefreie, kundenorientierte und innovative Anwendungen zu entwickeln, wobei')}
+                    {t(' ich besonderen Wert auf Sicherheit und Skalierbarkeit lege. Ich bin immer daran interessiert, mein Wissen zu erweitern und an neuen, interessanten Projekten zu arbeiten!')}
                     <br />
                     <br />
                     {t('Außerdem bin ich ein großer Filmfan, liebe die Luftfahrt, meine Katze und das Musical Hamilton. Wenn du das hier liest, bin ich wahrscheinlich am Videospiele spielen, höre Musik, schaue Filme oder schlafe.')}
-                    {t('Wenn ich nicht zu Hause bin, bin ich wahrscheinlich im örtlichen Geek-Shop und kaufe Karten, Comics oder andere Dinge, für die ich nicht so viel Geld ausgeben sollte.')}
+                    {t(' Wenn ich nicht zu Hause bin, bin ich wahrscheinlich im örtlichen Geek-Shop und kaufe Karten, Comics oder andere Dinge, für die ich nicht so viel Geld ausgeben sollte.')}
                 </p>
 
                 <a download="" href={CV} className="button button--flex">{t('CV Herunterladen')}
