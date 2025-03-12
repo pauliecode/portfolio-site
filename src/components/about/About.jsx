@@ -25,7 +25,7 @@ const About = () => {
                     {t(' Wenn ich nicht zu Hause bin, bin ich wahrscheinlich im örtlichen Geek-Shop und kaufe Karten, Comics oder andere Dinge, für die ich nicht so viel Geld ausgeben sollte.')}
                 </p>
 
-                <a download="" href={CV} className="button button--flex">{t('CV Herunterladen')}
+                <a href={CV} className="button button--flex">{t('CV Herunterladen')}
                 <svg
                 className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
